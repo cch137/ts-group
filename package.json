@@ -1,8 +1,10 @@
 {
   "name": "@cch137/group",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "devbuild": "tsc -w",
     "devstart": "nodemon ./dist/index.test.js",
